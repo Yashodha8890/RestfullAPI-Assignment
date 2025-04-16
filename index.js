@@ -82,7 +82,7 @@ const students = [
 // Render the ViewStudent page and list all students in viewStudents page (HTML page) 
 app.get('/viewStudents', (req, res) => {
     res.render('viewStudents', {
-      title: 'Student List',
+      title: 'Registered Student List',
       students
     });
   });

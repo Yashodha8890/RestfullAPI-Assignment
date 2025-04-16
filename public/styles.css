@@ -3,7 +3,7 @@ nav {
     background-color: #2e86de;
     padding: 15px;
     border-radius: 8px;
-    margin-bottom: 20px;  /* Space between navbar and content */
+    margin-bottom: 20px;
 }
 
 nav ul {
@@ -40,7 +40,7 @@ h1{
 }
 
 .form-container {
-    background-color: #ffffff;
+    background-color: #b7eaf2;
     padding: 25px 30px;
     max-width: 500px;
     margin: 0 auto;
@@ -49,7 +49,7 @@ h1{
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 25px;
     color: #333;
 }
@@ -98,15 +98,18 @@ button:hover {
 }
 
 .studentList {
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    padding: 12px;
+    background-color: #b7eaf2;
+    border: 1px solid #043eff;
+    padding: 25px 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(4, 4, 4, 0.1);
     margin-bottom: 15px;
-    border-radius: 6px;
 }
 
 .studentList h2 {
     margin-bottom: 8px;
-    color: #007acc;
+    color: #0904a8;
 }
 

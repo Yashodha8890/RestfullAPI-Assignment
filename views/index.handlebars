@@ -1,0 +1,45 @@
+<h1>Welcome to Student Management System!!</h1>
+
+<div class="form-container">
+    <h2>Student Registration</h2>
+    <form action="/api/students" method="POST">
+        <div class="form-group">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+        </div>
+
+        <div class="form-group">
+            <label for="studentID">Student ID:</label>
+            <input type="text" id="studentID" name="studentID" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="program">Program / Major:</label>
+            <input type="text" id="program" name="program" required>
+        </div>
+
+        <div class="form-group">
+            <label for="year">Year of Study:</label>
+            <input type="number" id="year" name="year" min="1" max="6" required>
+        </div>
+
+        <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <div class="form-group">
+            <label for="isInternational">International Student?</label>
+            <input type="checkbox" id="isInternational" name="isInternational" value="true">
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Register Student</button>
+        </div>
+    </form>
+</div>

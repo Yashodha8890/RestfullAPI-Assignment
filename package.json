@@ -1,0 +1,19 @@
+{
+  "name": "restfullapi-assignment",
+  "version": "1.0.0",
+  "description": "RESTfull API Assignment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yashodha Amarasinghe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

@@ -1,0 +1,11 @@
+<h1>{{{title}}}</h1>
+{{#each students}}
+<div class="studentList">
+    <h2>{{this.fullName}}</h2>
+    <p><strong>Student ID:</strong> {{this.studentID}}</p>
+    <p><strong>Email:</strong> {{this.email}}</p>
+    <p><strong>Program:</strong> {{this.program}}</p>
+    <p><strong>Year:</strong> {{this.year}}</p>
+    <p><strong>International Student:</strong> {{#if this.isInternational}}Yes{{else}}No{{/if}}</p>
+</div>    
+{{/each}}
